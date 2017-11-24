@@ -1,12 +1,12 @@
+[![npm](https://img.shields.io/npm/l/ionic2-super-tabs.svg)](https://www.npmjs.com/package/ionic2-super-tabs/)
+[![npm](https://img.shields.io/npm/dt/ionic2-super-tabs.svg)](https://www.npmjs.com/package/ionic2-super-tabs)
+[![npm](https://img.shields.io/npm/dm/ionic2-super-tabs.svg)](https://www.npmjs.com/package/ionic2-super-tabs)
+
 # Swipeable tabs for Ionic 2
 
 Swipeable tabs that can be your main navigation, or just a part of your page.
 
 To see this in action, checkout the [example project here](https://github.com/zyra/ionic2-super-tabs-example).
-
-
-[![NPM](https://nodei.co/npm/ionic2-super-tabs.png?stars&downloads)](https://nodei.co/npm/ionic2-super-tabs/)
-[![NPM](https://nodei.co/npm-dl/ionic2-super-tabs.png?months=6&height=2)](https://nodei.co/npm/ionic2-super-tabs/)
 
 
 <br><br>
@@ -34,7 +34,7 @@ Due to the way this module is designed, some versions of the module might not wo
 
 | Ionic Framework Version | ionic2-super-tabs version |
 | --- | --- |
-| 3.5.2 | 4.0.0 |
+| 3.5.2 - 3.6.x | ^4.0.1 |
 | 3.5.0 | 3.0.2 |
 | 3.4.x | 2.6.3 |
 | 3.0.0 - 3.3.x | 2.0.0 - 2.6.3 |
@@ -172,6 +172,8 @@ export class MyPage {
 The root page for this tab
 
 #### rootParams
+_Note: The Parameter `rootNavCtrl` is added automatically to the NavParams, there is no need to add it manually._
+
 _(optional)_ An object containing the params you would like to pass to this tab's root page
 
 #### title
@@ -184,7 +186,7 @@ _(optional)_ The name of the icon to display in the `ion-segment-button`. This h
 _(optional)_ The initial badge value. The number can be changed through the `SuperTabsController` provider.
 
 #### id
-_(optional)_ A unique ID to be used if you wish to use the `SuperTabaController` provider to modify this tab.
+_(optional)_ A unique ID to be used if you wish to use the `SuperTabsController` provider to modify this tab.
 
 
 <br><br>

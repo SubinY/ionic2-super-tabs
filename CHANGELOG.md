@@ -1,3 +1,70 @@
+<a name="4.1.5"></a>
+## [4.1.5](https://github.com/zyra/ionic2-super-tabs/compare/v4.1.4...v4.1.5) (2017-11-10)
+
+
+
+<a name="4.1.4"></a>
+## [4.1.4](https://github.com/zyra/ionic2-super-tabs/compare/v4.1.3...v4.1.4) (2017-10-31)
+
+
+### Bug Fixes
+
+* **super-tabs:** add resize method ([#204](https://github.com/zyra/ionic2-super-tabs/issues/204)) ([ba84781](https://github.com/zyra/ionic2-super-tabs/commit/ba84781)), closes [#203](https://github.com/zyra/ionic2-super-tabs/issues/203)
+
+
+
+<a name="4.1.3"></a>
+## [4.1.3](https://github.com/zyra/ionic2-super-tabs/compare/v4.1.2...v4.1.3) (2017-10-11)
+
+
+### Bug Fixes
+
+* **super-tabs:** fire lifecycle events for first tab ([bc9fd8d](https://github.com/zyra/ionic2-super-tabs/commit/bc9fd8d)), closes [#180](https://github.com/zyra/ionic2-super-tabs/issues/180)
+
+
+
+<a name="4.1.2"></a>
+## [4.1.2](https://github.com/zyra/ionic2-super-tabs/compare/v4.1.1...v4.1.2) (2017-10-11)
+
+
+
+<a name="4.1.1"></a>
+## [4.1.1](https://github.com/zyra/ionic2-super-tabs/compare/v4.1.0...v4.1.1) (2017-10-10)
+
+
+### Bug Fixes
+
+* **super-tabs:** fix lifecycle events ([1a7a8ee](https://github.com/zyra/ionic2-super-tabs/commit/1a7a8ee)), closes [#175](https://github.com/zyra/ionic2-super-tabs/issues/175)
+* **super-tabs:** onTabChange firing twice if page was not changed ([2c19ab4](https://github.com/zyra/ionic2-super-tabs/commit/2c19ab4))
+
+
+
+<a name="4.1.0"></a>
+# [4.1.0](https://github.com/zyra/ionic2-super-tabs/compare/v4.0.1...v4.1.0) (2017-09-04)
+
+
+### Bug Fixes
+
+* **super-tabs:** fix issue with buttons placement when resizing ([1cf4cff](https://github.com/zyra/ionic2-super-tabs/commit/1cf4cff)), closes [#148](https://github.com/zyra/ionic2-super-tabs/issues/148)
+
+
+### Features
+
+* **super-tabs:** fire tabSelect when buttons are clicked ([611f5cd](https://github.com/zyra/ionic2-super-tabs/commit/611f5cd)), closes [#103](https://github.com/zyra/ionic2-super-tabs/issues/103)
+* **super-tabs:** support manually updating the segment button widths([#121](https://github.com/zyra/ionic2-super-tabs/issues/121)) ([8d2d678](https://github.com/zyra/ionic2-super-tabs/commit/8d2d678))
+
+
+
+<a name="4.0.1"></a>
+## [4.0.1](https://github.com/zyra/ionic2-super-tabs/compare/v4.0.0...v4.0.1) (2017-08-06)
+
+
+### Bug Fixes
+
+* **super-tabs:** fix support for ionic-angular@3.6.0 ([8ef8c84](https://github.com/zyra/ionic2-super-tabs/commit/8ef8c84)), closes [#135](https://github.com/zyra/ionic2-super-tabs/issues/135)
+
+
+
 <a name="4.0.0"></a>
 # [4.0.0](https://github.com/zyra/ionic2-super-tabs/compare/v3.0.1...v4.0.0) (2017-07-14)
 
@@ -28,7 +95,7 @@
 
 ### Bug Fixes
 
-* **super-tabs:** fix tabs for ionic-framework[@3](https://github.com/3).5.0 ([5d77164](https://github.com/zyra/ionic2-super-tabs/commit/5d77164)), closes [#94](https://github.com/zyra/ionic2-super-tabs/issues/94)
+* **super-tabs:** fix tabs for ionic-framework@3.5.0 ([5d77164](https://github.com/zyra/ionic2-super-tabs/commit/5d77164)), closes [#94](https://github.com/zyra/ionic2-super-tabs/issues/94)
 
 
 
@@ -38,7 +105,7 @@
 
 ### Bug Fixes
 
-* remove keyboard from super call (#84) ([a00cb75](https://github.com/zyra/ionic2-super-tabs/commit/a00cb75))
+* remove keyboard from super call ([#84](https://github.com/zyra/ionic2-super-tabs/issues/84)) ([a00cb75](https://github.com/zyra/ionic2-super-tabs/commit/a00cb75))
 
 
 
